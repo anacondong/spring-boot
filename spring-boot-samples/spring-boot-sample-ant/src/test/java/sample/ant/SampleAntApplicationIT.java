@@ -48,7 +48,7 @@ public class SampleAntApplicationIT {
 		});
 		assertThat(jarFiles).hasSize(1);
 		Process process = new JavaExecutable().processBuilder("-jar", jarFiles[0].getName()).directory(target).start();
-		process.waitFor(5, TimeUnit.MINUTES);
+		process.waitFor(20, TimeUnit.MINUTES);
 		assertThat(process.exitValue()).isEqualTo(0);
 		String output = FileCopyUtils.copyToString(new InputStreamReader(process.getInputStream()));
 		assertThat(output).contains("Spring Boot Ant Example");

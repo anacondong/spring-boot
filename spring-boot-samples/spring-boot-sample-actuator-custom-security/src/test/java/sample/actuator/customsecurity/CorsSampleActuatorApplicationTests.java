@@ -60,7 +60,7 @@ public class CorsSampleActuatorApplicationTests {
 				this.applicationContext.getEnvironment(), "http");
 		restTemplate.setUriTemplateHandler(handler);
 		restTemplate.setRequestFactory(new HttpComponentsClientHttpRequestFactory());
-		this.testRestTemplate = new TestRestTemplate(restTemplate);
+//		this.testRestTemplate = new TestRestTemplate(restTemplate);
 	}
 
 	@Test
