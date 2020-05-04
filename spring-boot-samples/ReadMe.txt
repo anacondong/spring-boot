@@ -22,11 +22,15 @@
     start elasticsearch with docker: curl https://gist.githubusercontent.com/markheath/f246ec3aa5a3e7493991904e241a416a/raw/c4fa64575bc854e34a2506291bd14033caf5e9b6/docker-compose-v1.yml > docker-compose-v1.yml
     ref: https://markheath.net/post/exploring-elasticsearch-with-docker,
     ref: https://mkyong.com/spring-boot/spring-boot-spring-data-elasticsearch-example/
-- spring-boot-sample-data-jpa >>> 
-- spring-boot-sample-data-ldap >>> 
-- spring-boot-sample-data-mongodb >>> 
-- spring-boot-sample-data-neo4j >>> 
-- spring-boot-sample-data-redis >>> 
+- spring-boot-sample-data-jpa >>> h2 database with spring data
+- spring-boot-sample-data-ldap >>> LDAP JPA simple
+- spring-boot-sample-data-mongodb >>> Spring data with embedmongo-db,findAll, findById, save
+- spring-boot-sample-data-neo4j >>> Spring data with embedneo4j-db,findAll, findById, save
+- spring-boot-sample-data-redis >>>
+    docker pull bitnami/redis,
+    docker run --name redis_cont -e ALLOW_EMPTY_PASSWORD=yes bitnami/redis:latest
+    ref: https://medium.com/@phayao/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-microservice-redis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-spring-boot-spring-data-f7a43e3f2522
+    ref: https://github.com/anacondong/spring-boot-redis
 - spring-boot-sample-data-rest >>> 
 - spring-boot-sample-data-solr >>> 
 - spring-boot-sample-devtools >>> 
