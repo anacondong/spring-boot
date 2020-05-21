@@ -16,8 +16,6 @@
 
 package sample.simple;
 
-import javax.validation.constraints.NotNull;
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
@@ -27,7 +25,6 @@ import org.springframework.validation.annotation.Validated;
 @ConfigurationProperties(prefix = "sample")
 public class SampleConfigurationProperties {
 
-	@NotNull
 	private String name;
 
 	public String getName() {

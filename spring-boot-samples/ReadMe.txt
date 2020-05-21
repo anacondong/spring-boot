@@ -31,50 +31,56 @@
     docker run --name redis_cont -e ALLOW_EMPTY_PASSWORD=yes bitnami/redis:latest
     ref: https://medium.com/@phayao/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-microservice-redis-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-spring-boot-spring-data-f7a43e3f2522
     ref: https://github.com/anacondong/spring-boot-redis
-- spring-boot-sample-data-rest >>> 
-- spring-boot-sample-data-solr >>> 
-- spring-boot-sample-devtools >>> 
-- spring-boot-sample-flyway >>> 
-- spring-boot-sample-hateoas >>> 
-- spring-boot-sample-integration >>> 
-- spring-boot-sample-jersey >>> 
-- spring-boot-sample-jersey1 >>> 
-- spring-boot-sample-jetty >>> 
-- spring-boot-sample-jetty-jsp >>> 
-- spring-boot-sample-jetty-ssl >>> 
-- spring-boot-sample-jooq >>> 
-- spring-boot-sample-jpa >>> 
-- spring-boot-sample-jta-atomikos >>> 
-- spring-boot-sample-jta-bitronix >>> 
-- spring-boot-sample-jta-narayana >>> 
-- spring-boot-sample-jta-jndi >>> 
-- spring-boot-sample-junit-jupiter >>> 
-- spring-boot-sample-kafka >>> 
-- spring-boot-sample-liquibase >>> 
-- spring-boot-sample-logback >>> 
-- spring-boot-sample-oauth2-client >>> 
-- spring-boot-sample-parent-context >>> 
-- spring-boot-sample-profile >>> 
-- spring-boot-sample-property-validation >>> 
-- spring-boot-sample-quartz >>> 
-- spring-boot-sample-secure >>> 
-- spring-boot-sample-secure-webflux >>> 
-- spring-boot-sample-servlet >>> 
-- spring-boot-sample-session >>> 
-- spring-boot-sample-session-webflux >>> 
-- spring-boot-sample-simple >>> 
-- spring-boot-sample-test >>> 
-- spring-boot-sample-test-nomockito >>> 
-- spring-boot-sample-testng >>> 
-- spring-boot-sample-tomcat >>> 
-- spring-boot-sample-tomcat-jsp >>> 
-- spring-boot-sample-tomcat-ssl >>> 
-- spring-boot-sample-tomcat-multi-connectors >>> 
-- spring-boot-sample-traditional >>> 
-- spring-boot-sample-undertow >>> 
-- spring-boot-sample-undertow-ssl >>> 
-- spring-boot-sample-war >>> 
-- spring-boot-sample-web-freemarker >>> 
+- spring-boot-sample-data-rest >>> *** API with spring data, database h2, Restful api >>> http://localhost:8080/api/cities/search/findByNameContainingAndCountryContainingAllIgnoringCase?name=&country=UK
+- spring-boot-sample-data-solr >>> spring data with solr
+- spring-boot-sample-devtools >>> devtools access resources
+- spring-boot-sample-flyway >>> controll excution script data base
+- spring-boot-sample-hateoas >>> spring-data, API restful, hateoas inmemory
+- spring-boot-sample-integration >>> ?????
+- spring-boot-sample-jersey >>> spring-boot-jersey >> API
+- spring-boot-sample-jersey1 >>> very Simple spring-boot-jersey >> API
+- spring-boot-sample-jetty >>> API spring boot restful with server jetty
+- spring-boot-sample-jetty-jsp >>> Spring web app MVC, JSP,  exception handler, server jetty
+- spring-boot-sample-jetty-ssl >>> SSL web with jetty ssl >>> https://localhost:8443/
+- spring-boot-sample-jooq >>> Tools Generate Model from Data base object
+- spring-boot-sample-jpa >>> jpa, web , sql
+- spring-boot-sample-jta-atomikos >>> JMS Message Q, Active MQ atomikos
+- spring-boot-sample-jta-bitronix >>> JMS Message Q, Active MQ bitronix
+- spring-boot-sample-jta-narayana >>> JMS Message Q, Active MQ narayana
+- spring-boot-sample-jta-jndi >>> JMS Message Q, Jboss, Restfull
+- spring-boot-sample-junit-jupiter >>> sample junit jupiter
+- spring-boot-sample-kafka >>> spring boot sample kafka >> Consumer, Producer
+- spring-boot-sample-liquibase >>> spring boot sample liquibase
+- spring-boot-sample-logback >>> Config logback >> Debug, TRACE
+- spring-boot-sample-oauth2-client >>> **** Spring boot sample connect Oauth2 client to Github to get data from resources server
+
+    == Register Github OAuth2 application
+   To run the sample, you need to link:https://github.com/settings/applications/new[register an OAuth application on Github].
+   While registering your application, ensure the Authorization callback URL is set to http://localhost:8080/login/oauth2/code/github.
+   After completing the registration, you will have a new OAuth Application with a Client ID and Client Secret.
+
+- spring-boot-sample-parent-context >>> ????
+- spring-boot-sample-profile >>> spring profile run by evn
+- spring-boot-sample-property-validation >>> spring boot load properties >> @ConfigurationProperties
+- spring-boot-sample-quartz >>> Quartz Job,Task, excuting
+- spring-boot-sample-secure >>> secure >> role stick to use service method
+- spring-boot-sample-secure-webflux >>> unitest with spring security
+- spring-boot-sample-servlet >>> Servlet
+- spring-boot-sample-session >>> Handle HttpSession
+- spring-boot-sample-session-webflux >>> Handle WebSession
+- spring-boot-sample-simple >>> Simple Template project
+- spring-boot-sample-test >>> Simple Template Web project including Unittest
+- spring-boot-sample-test-nomockito >>> ???
+- spring-boot-sample-testng >>> ???
+- spring-boot-sample-tomcat >>> embedded Tomcat server
+- spring-boot-sample-tomcat-jsp >>> *** spring boot MVC , Tomcat server, Simple Template
+- spring-boot-sample-tomcat-ssl >>> Tomcat SSL,cert >>> https:
+- spring-boot-sample-tomcat-multi-connectors >>> multi connectors cat SSL,cert >>> https:
+- spring-boot-sample-traditional >>> Spring MVC old school style
+- spring-boot-sample-undertow >>> ???
+- spring-boot-sample-undertow-ssl >>> ???
+- spring-boot-sample-war >>> packaging war file
+- spring-boot-sample-web-freemarker >>> spring web freemarker template
 - spring-boot-sample-web-groovy-templates >>> 
 - spring-boot-sample-web-jsp >>> 
 - spring-boot-sample-web-method-security >>> 
