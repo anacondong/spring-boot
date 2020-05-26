@@ -81,18 +81,18 @@
 - spring-boot-sample-undertow-ssl >>> ???
 - spring-boot-sample-war >>> packaging war file
 - spring-boot-sample-web-freemarker >>> spring web freemarker template
-- spring-boot-sample-web-groovy-templates >>> 
-- spring-boot-sample-web-jsp >>> 
-- spring-boot-sample-web-method-security >>> 
-- spring-boot-sample-web-mustache >>> 
-- spring-boot-sample-web-secure >>> 
-- spring-boot-sample-web-secure-custom >>> 
-- spring-boot-sample-web-secure-jdbc >>> 
-- spring-boot-sample-web-static >>> 
-- spring-boot-sample-web-ui >>> 
-- spring-boot-sample-webflux >>> 
-- spring-boot-sample-websocket-jetty >>> 
-- spring-boot-sample-websocket-tomcat >>> 
-- spring-boot-sample-websocket-undertow >>> 
-- spring-boot-sample-webservices >>> 
-- spring-boot-sample-xml >>> 
+- spring-boot-sample-web-groovy-templates >>> Spring MVC, Groovy on Rail template
+- spring-boot-sample-web-jsp >>> Sample web jsp
+- spring-boot-sample-web-method-security >>> Sample MVC with method security
+- spring-boot-sample-web-mustache >>> spring mvc Error handler, redirect to error page
+- spring-boot-sample-web-secure >>> *** Init project spring MVC, Spring security, error handler
+- spring-boot-sample-web-secure-custom >>> spring MVC, Spring security
+- spring-boot-sample-web-secure-jdbc >>> *** Init project spring MVC, Spring security, error handler, JDBC
+- spring-boot-sample-web-static >>> static html website
+- spring-boot-sample-web-ui >>> Spring MVC with UI template
+- spring-boot-sample-webflux >>> ???
+- spring-boot-sample-websocket-jetty >>>  spring web socket wit jetty server
+- spring-boot-sample-websocket-tomcat >>> spring web socket wit tomcat server
+- spring-boot-sample-websocket-undertow >>> spring web socket wit undertow server
+- spring-boot-sample-webservices >>> spring webservice ???
+- spring-boot-sample-xml >>> spring start with xml
